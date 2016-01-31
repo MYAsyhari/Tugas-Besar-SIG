@@ -17,9 +17,9 @@ LAYER
 NAME 		"Provinsi"
 STATUS		ON
 TYPE		POLYGON
-CONNECTIONTYPE POSTGIS
-CONNECTION "host=localhost dbname=jogja user=postgres password=08april"
-DATA "geom FROM admin_kecamatan USING UNIQUE gid"
+CONNECTIONTYPE 	POSTGIS
+CONNECTION 	"host=localhost dbname=jogja user=postgres password=08april"
+DATA 		"geom FROM admin_kecamatan USING UNIQUE gid"
 
 CLASS
 NAME "Provinsi"
